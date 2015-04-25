@@ -1,0 +1,385 @@
+body {
+  padding: 0;
+  margin: 0;
+    background: #04120b;
+  }
+
+li {
+  list-style: none;
+  }
+  
+a {
+  text-decoration: none;
+  color: white;
+  }
+  
+  
+  
+/*********************************
+HEADER
+*********************************/
+
+
+
+header {
+  text-align: center;
+  border-bottom: 3px solid white;
+  }
+
+header li {
+  color: white;
+  display: inline-block;
+  font-size: 2em;
+  padding: 20px 40px;
+  }
+  
+  
+  
+/*********************************
+VIDEO
+*********************************/
+
+#wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+  
+video {
+  border-bottom: 3px solid white;
+  background-color: green;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+  
+  
+  
+/*********************************
+NAVIGATION
+*********************************/
+
+
+
+nav {
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  padding: 10px 0;
+  margin: 0px 0 0;
+  }
+  
+nav ul {
+  list-style: none;
+  margin: 0 20px 20px;
+  padding; 10;
+  }
+  
+nav li {
+  margin: 10px 0 0;
+  padding: 0 20px;
+  display: inline-block;
+  }
+  
+nav a:hover {
+  color: #26c281;
+  }
+
+  
+  
+  
+/*********************************
+SECTION
+*********************************/
+
+
+
+section {
+  color: white;
+  font-size: 1.8em;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 40px;
+  }
+  
+  
+  
+/*********************************
+GALLERY
+*********************************/
+
+
+
+img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}  
+  
+#gallery {
+  color: white;
+  text-align: center;
+  padding: 0;
+  font-size: 2em;
+  margin: 0 auto;
+  }
+
+#gallery ul{
+  margin: 0 auto;
+  padding: 15px 0px;
+  max-width: 1800px;
+  }
+
+#gallery li {
+  display: inline-block;
+  margin: 1px auto;
+  padding: 0px 0;
+  max-width: 300px;
+  max-height: 769px;
+  }
+  
+#gallery p {
+  font-size: 2em;
+  }
+
+
+
+/*********************************
+ABOUT
+*********************************/
+
+
+
+#about {
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  margin: 200px 0 0 0;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 1.7em;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-image: url("../img/bridge.jpg") ;
+  }
+
+
+#about img {
+  max-width: 500px;
+  }
+  
+#about ul {
+  max-width: 1600px;
+  margin: 0 auto 60px;
+  }
+  
+#about li {
+  padding: 40px;
+  display: inline-block;
+  max-width: 433px;
+}
+
+#about p {
+  font-size: 2em;
+  padding: 0;
+  margin: 60px 0 0 0;
+  }
+
+.margin {
+  margin: 20px 0 0 0;
+  max-width: 355px;
+  }
+  
+
+  
+/*********************************
+FOOTER
+*********************************/
+
+
+
+footer {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  max-width: 480px;
+  margin: 60px auto 0;
+  padding: 20px 5px;
+  }
+  
+.contact {
+  font-size: 2em;
+  }
+  
+  
+  
+/*********************************
+RESPONSIVE DESIGN
+*********************************/
+
+@media screen and (max-width: 1920px) {
+
+  
+.margin {
+  padding: 0px 0;
+  margin: -30px 0;
+  max-width: 355px;
+  }  
+
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+
+  
+section {
+  font-size: 1.3em;
+  padding: 25px;
+  }
+  
+#about li {
+  max-width: 500px;
+}
+
+.margin {
+  padding: 20px 0;
+  margin: 20px 0;
+  max-width: 355px;
+  }  
+
+#gallery li {
+  padding: 0px 5px;
+  max-width: 220px;
+  }
+}
+  
+  
+  
+  
+@media screen and (max-width: 480px) {
+
+
+  
+nav {
+  font-size: 1.5em;
+  padding: 10px 0;
+  margin: 0px auto 0;
+  }
+
+
+nav ul {
+  margin: 0 ;
+  padding; 0;
+  margin: 0 auto;
+  }
+  
+nav li {
+  margin: 0px 0 0;
+  padding: 10px 30px;
+  }
+  
+section {
+  font-size: 1.3em;
+  padding: 5px;
+  }
+  
+#about ul {
+  max-width: 1600px;
+  margin: 20px 0 ;
+  padding: 20px 0;
+  }
+  
+#about li {
+  margin: 0;
+  padding: 20px 5px;
+  display: inline-block;
+  max-width: 500px;
+}
+
+.margin {
+  padding: 20px 0;
+  margin: 20px 0;
+  max-width: 355px;
+  }  
+
+#gallery li {
+  padding: 0px 10px;
+  max-width: 500px;
+  }
+  
+
+} 
+
+
+@media screen and (max-width: 320px) {
+
+
+/*********************************
+HEADER
+*********************************/
+
+
+
+header li {
+  color: white;
+  font-size: 1.5em;
+  padding: 10px 0;
+  }
+  
+  
+/*********************************
+NAVIGATION
+*********************************/
+
+
+nav {
+  font-size: 1.5em;
+  padding: 10px 0;
+  margin: 0px auto 0;
+  }
+
+
+nav ul {
+  margin: 0 ;
+  padding: 0;
+  margin: 0 auto;
+  }
+  
+nav li {
+  margin: 0px 0 0;
+  padding: 0 10px;
+  }
+  
+section {
+  font-size: 1.3em;
+  padding: 5px;
+  }
+  
+#about ul {
+  max-width: 1600px;
+  margin: 20px 0 ;
+  padding: 20px 0;
+  }
+  
+#about li {
+  margin: 0;
+  padding: 20px 5px;
+  display: inline-block;
+  max-width: 500px;
+}
+
+.margin {
+  padding: 20px 0;
+  margin: 20px 0;
+  max-width: 355px;
+  }
+  
+
+}  
+  
+  
+
+  
